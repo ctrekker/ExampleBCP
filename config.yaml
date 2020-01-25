@@ -1,3 +1,4 @@
 commands:
         - name: fibb
-          command: node program.js
+          file: program.js
+          executor: node
